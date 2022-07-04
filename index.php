@@ -1,6 +1,6 @@
 <?php
 
-$fileList = glob('test/*.php');
+$fileList = glob('/*.php');
 foreach($fileList as $filename){
     if(is_file($filename)){
         echo $filename, '<br>'; 
